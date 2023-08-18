@@ -32,7 +32,7 @@ resource "aws_ebs_volume" "ebs_volume" {
   count             = 3
   availability_zone = "us-east-1a"  # Replace with your desired availability zone
   size              = 1800
-  type              = "gp2"
+  type              = "gp3"
 }
 
 locals {
